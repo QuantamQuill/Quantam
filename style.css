@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.notification-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.event {
+    position: relative;
+    text-align: center;
+}
+
+.event img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.description, .banner {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0.5em;
+}
+
+.chatbot {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#chat-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#chatbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chatlog {
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1em;
+}
+
+#user-input {
+    width: 200px;
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 0.5em;
+}
